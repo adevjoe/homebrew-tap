@@ -1,8 +1,8 @@
 cask "mushroom" do
-  version "0.1.0"
-  sha256 "f3c3881ed3411668a4495805f791979c52387d5e2f04efa5325f1b7812e38d85"
+  version "0.1.1"
+  sha256 "3b785232aae818d20e3673cbdc371c4760d6c4497fb83645acfe65efa2d267b4"
 
-  url "https://api.github.com/repos/adevjoe/mushroom/releases/assets/469100546",
+  url "https://api.github.com/repos/adevjoe/mushroom/releases/assets/470919301",
       verified: "api.github.com/repos/adevjoe/mushroom/",
       header: [
         "Authorization: Bearer #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN", "")}",
