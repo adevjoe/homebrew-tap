@@ -1,28 +1,28 @@
 class Mdr < Formula
   desc "Render Markdown in the terminal with CJK-aware wrapping and tables"
   homepage "https://github.com/adevjoe/mdr"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/adevjoe/mdr/releases/download/v0.1.2/mdr-aarch64-apple-darwin.tar.gz"
-      sha256 "e39b6b116e2de14bd0f50ea7cf64a592b28b29305aaef2bbe6922e432dfe8703"
+      url "https://github.com/adevjoe/mdr/releases/download/v0.1.3/mdr-aarch64-apple-darwin.tar.gz"
+      sha256 "b54957dd68fd9a6f5de68e058b843625c03feb8e1733fc0773ccbdbaf4e51ffa"
     end
     on_intel do
-      url "https://github.com/adevjoe/mdr/releases/download/v0.1.2/mdr-x86_64-apple-darwin.tar.gz"
-      sha256 "ce336739a3720c000234b2dfa6c19dcfdc4b35d04d193a6f284744b4cfa998c1"
+      url "https://github.com/adevjoe/mdr/releases/download/v0.1.3/mdr-x86_64-apple-darwin.tar.gz"
+      sha256 "9c75abd043783c103b9e526b7a2e6ee36d20a15504edb8470b54fb37216188b3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/adevjoe/mdr/releases/download/v0.1.2/mdr-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "607d1217be2b74c9351afe0aac4b96bef3c19c42ee7df89f70fa88a5310e28f2"
+      url "https://github.com/adevjoe/mdr/releases/download/v0.1.3/mdr-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "684b792fa178c9d5fa94c20fa10ad06f4ca09cb939edf9f688b35b61d1fb4570"
     end
     on_intel do
-      url "https://github.com/adevjoe/mdr/releases/download/v0.1.2/mdr-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "bca17dac7d96b8200da9bbb6b69a322c0a72761453b1cddce6a0ac64fb6536a5"
+      url "https://github.com/adevjoe/mdr/releases/download/v0.1.3/mdr-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a5291eeb866a2520c429471d0ba485a608e964c8806288df84a3a33b58e64a23"
     end
   end
 
